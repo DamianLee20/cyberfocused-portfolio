@@ -1,18 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Damian Lee | Cybersecurity Portfolio</title>
-  {% include head.html %}
-</head>
-<body id="page-top" class="index">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include about.html %}
-  {% include portfolio_grid.html %}
-  {% include certs.html %}
-  {% include contact.html %}
-  {% include footer.html %}
-  {% include modals.html %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css">
+<body>
+  <div class="container">
+    <h1>Damian Lee's Cybersecurity Portfolio</h1>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Certified cybersecurity professional with Security+ and hands-on experience in threat detection and log analysis.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Phishing Simulation Tool:</strong> Simulates login harvesting with Flask & Ngrok.</li>
+        <li><strong>Secure File Transfer App:</strong> AES-encrypted uploads/downloads with Flask & Cryptography.</li>
+        <li><strong>Phantom Credentials:</strong> Tabletop exercise simulating credential theft and lateral movement.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>CompTIA Security+ (ID: COMP001022608502)</li>
+        <li>Google Cybersecurity Professional Certificate</li>
+      </ul>
+    </section>
+  </div>
 </body>
-</html>
