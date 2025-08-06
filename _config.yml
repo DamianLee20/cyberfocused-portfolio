@@ -9,6 +9,12 @@ line: Oakland, California
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.
 Cyber icons created by <a href="https://www.flaticon.com/free-icons/cyber-attack" title="cyber attack icons">Freepik - Flaticon</a>.'
 
+color:
+  primary: "#A16AE8"
+  primary-rgb: "161,106,232"
+  secondary: "#F4F4FA"
+  secondary-dark: "#2B2B38"
+
 markdown: kramdown
 permalink: pretty
 
