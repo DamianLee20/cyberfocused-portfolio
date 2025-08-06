@@ -2,9 +2,12 @@
 
 body {
     overflow-x: hidden;
-    background-color: #F4F4FA;
+    background: linear-gradient(135deg, #DCD6F7, #F3EAF4);
     color: #2B2B38;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 a,
@@ -25,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     text-align: center;
     color: #fff;
-    background: #A16AE8;
+    background: linear-gradient(to right, #A16AE8, #744BCC);
 }
 
 header .intro-text .name,
@@ -64,11 +67,11 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
-    background-color: #F4F4FA;
+    background: linear-gradient(180deg, #F3EAF4, #DCD6F7);
 }
 
 section.success {
-    background-color: #A16AE8;
+    background: linear-gradient(to right, #A16AE8, #744BCC);
     color: #fff;
 }
 
@@ -97,11 +100,13 @@ footer {
 }
 
 .portfolio-modal .modal-content {
-    background-color: #fff;
+    background: linear-gradient(135deg, #F3EAF4, #DCD6F7);
     color: #2B2B38;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: auto;
 }
 
 .modal-view-button {
