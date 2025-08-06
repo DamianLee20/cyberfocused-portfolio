@@ -1,19 +1,14 @@
-# Site settings
 title: Damian Lee Cybersecurity Portfolio
 email: dlee21221@gmail.com
 description: >-
   Cybersecurity and IT support professional portfolio showcasing projects, certifications, and blogs.
-baseurl: "" # Leave empty for root
+baseurl: ""
 url: "https://damianlee20.github.io/cyberfocused-portfolio"
-
-# Location
 line: Oakland, California
 
-# Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.
 Cyber icons created by <a href="https://www.flaticon.com/free-icons/cyber-attack" title="cyber attack icons">Freepik - Flaticon</a>.'
 
-# Build settings
 markdown: kramdown
 permalink: pretty
 
@@ -21,7 +16,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# For posts
 defaults:
   - scope:
       path: ""
@@ -29,4 +23,4 @@ defaults:
     values:
       permalink: ""
 
-# Trigger rebuild
+# rebuild restart
