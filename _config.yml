@@ -1,58 +1,13 @@
 # Site settings
-title: Damian Lee
-email: Dlee21221@gmail.com
-url: https://DamianLee20.github.io/cyberfocused-portfolio
-description: "Portfolio of cybersecurity work samples for a junior-level cyber security professional."
-keywords: "cybersecurity, cyber, security, portfolio, tech"
-skills: "Cybersecurity - Analyst - Ethical Hacker"
-meta_author: Lee Damian
+title: Damian Lee Cybersecurity Portfolio
+email: dlee21221@gmail.com
+description: >-
+  Cybersecurity and IT support professional portfolio showcasing projects, certifications, and blogs.
+baseurl: "" # Leave empty for root
+url: "https://damianlee20.github.io/cyberfocused-portfolio"
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: 
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: e9edc9 #80B3FF
-  primary-rgb: "45,215,185" #"128,179,255"
-  secondary: 000814 #FD6E8A
-  secondary-dark: 800e13 #A2122F
-
-# Footer settings
-footer:
-  copyright: Damian Lee
-  location: location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/damian-lee-78b32782
-  - title: github
-    url: https://github.com/DamianLee20
-  - title: TryHackMe
-    url: https://docs.google.com/document/d/1zMuE5WFF0xM5JyeAwJRVdTKa43Ump3-zjlsTMMosUVQ/edit?usp=sharing
-
-# Email Address (make sure to include "mailto:" before your email!)
-email:
-  email-url: mailto:dlee21221@gmail.com
-
-# Postal address (add as many lines as necessary)
-location:
-  - line: Oakland, California
+# Location
+line: Oakland, California
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.
@@ -62,11 +17,16 @@ Cyber icons created by <a href="https://www.flaticon.com/free-icons/cyber-attack
 markdown: kramdown
 permalink: pretty
 
-#for posts
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# For posts
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
       permalink: ""
-# trigger build
+
+# Trigger rebuild
